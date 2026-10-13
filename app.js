@@ -37,8 +37,13 @@
 // ));
 
 // const parityList3 = nums.map((n) => n % 2 === 0 ? 'even' : 'odd');
-const n = [1, 2, 3];
-const pl = n.map((n) => (n % 2 == 0 ? "e" : "o"));
-console.log(pl);
-const d = n.map((n) => n * 2);
+// const n = [1, 2, 3];
+// const pl = n.map((n) => (n % 2 == 0 ? "e" : "o"));
+// console.log(pl);
+// const d = n.map((n) => n * 2);
 // console.log(d);
+const n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const pl = n.map((n) => (n % 2 === 0 ? "e" : "o"));
+console.log(pl);
+const s = n.map((n) => n * n);
+// console.log(s);
